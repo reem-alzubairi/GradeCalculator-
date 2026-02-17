@@ -16,9 +16,12 @@ int main() {
 	else if (grade >= 60 && grade < 70) {
 		cout << "Acceptable" << endl;
 	}
-	else if (grade >= 50 ) {
+	else if (grade >= 50 && grade <60 ) {
 		cout << "Pass" << endl;
 	}
+		else if (grade < 50 && grade >=0) {
+	cout << "fail" << endl;
+}
 	else {
 		cout << "Fail" << endl;
 	}
